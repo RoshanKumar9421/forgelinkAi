@@ -14,7 +14,8 @@ const initialForm = {
   ai_dependency: 8,
 };
 
-const apiBase = import.meta.env.VITE_API_BASE_URL || "";
+const apiBase =
+  import.meta.env.VITE_API_BASE_URL || "https://forgelinkai.onrender.com";
 
 const domainLabels = {
   general: "General innovation",

@@ -58,6 +58,40 @@ npm run dev
 
 Frontend runs at `http://127.0.0.1:5174`.
 
+### Frontend Deployment
+
+The frontend can be deployed separately on Vercel or Netlify.
+
+Default production backend:
+
+```text
+https://forgelinkai.onrender.com
+```
+
+Optional environment variable:
+
+```text
+VITE_API_BASE_URL=https://forgelinkai.onrender.com
+```
+
+#### Vercel
+
+1. Import the GitHub repo into Vercel.
+2. Set the project root directory to `frontend`.
+3. Build command:
+
+```bash
+npm run build
+```
+
+4. Output directory:
+
+```text
+dist
+```
+
+5. Add `VITE_API_BASE_URL=https://forgelinkai.onrender.com` if you want it explicit.
+
 ## Deployment
 
 This project is set up so FastAPI can serve the built React frontend in a
