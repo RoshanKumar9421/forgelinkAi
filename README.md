@@ -69,6 +69,7 @@ single deployment.
 2. Create a Render Web Service or Blueprint.
 3. Use the included `render.yaml`.
 4. Render will install backend dependencies, build the React app, and start FastAPI.
+5. The backend pins Python to `3.13.9` via `backend/runtime.txt` for package compatibility.
 
 In deployment, the frontend defaults to the same origin for API requests, so it
 does not depend on a localhost API URL.
