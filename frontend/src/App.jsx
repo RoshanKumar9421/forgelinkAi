@@ -238,7 +238,7 @@ function App() {
       <main className="layout">
         <section className="hero">
           <div className="hero-copy">
-            <span className="tag">Track 6 | Open Innovation</span>
+            <span className="tag"></span>
             <h1>ForgeLink AI</h1>
             <p>
               An AI innovation copilot that transforms raw ideas into startup
